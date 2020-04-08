@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	<title>Embedding Stuff</title>
+	</head>
+	
+	<body data-gr-c-s-loaded="true">
+	<h1>Embedding with Tags</h1>
+	<h2>A simple Image (varous sizes)</h2>
+	<img src="https://ischool.uw.edu/sites/default/files/main-promo/capstone-informatics.jpg" title="iSchool Capstones" style="width:100px"><img src="https://ischool.uw.edu/sites/default/files/main-promo/capstone-informatics.jpg" title="iSchool Capstones" style="width:200px"><img src="https://ischool.uw.edu/sites/default/files/main-promo/capstone-informatics.jpg" title="iSchool Capstones" style="width:300px">
+	<h2>HTML 5 audio</h2>
+	<p>Alive by Avalon </p>
+	<audio controls="">
+	  <source src="media/02-Alive.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<h2>HTML 5 Video</h2>
+	<video width="320" height="240" controls="">
+	   <source src="./media/test.mp4" type="video/mp4">
+	 	Your browser does not support the video tag.
+	 </video> 
+	<h2>The old school object tag</h2>
+	<div align="center">
+		<object width="800" height="600"><param name="movie" value="http://www.onlinegames7.com/games/cursed-treasure-level-pack/Cursed-Treasure-Level-Pack.swf"><param name="quality" value="high"><embed src="http://www.onlinegames7.com/games/cursed-treasure-level-pack/Cursed-Treasure-Level-Pack.swf" quality="high" width="800" height="600" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object><br><a href="http://www.onlinegames7.com/">Online Games</a> | <a href="http://www.onlinegames7.com/websitegames.html">Games for your Website</a></div>
+	
+	<h1>The iFrame</h1>
+	<h2>Youtube</h2>
+	 <h3>The default</h3>
+	 <iframe width="560" height="315" src="http://www.youtube.com/embed/tCpSo4_Ped0" frameborder="0" allowfullscreen=""></iframe>
+	<h3>Start from a certain time</h3>
+	 <iframe width="300" height="200" src="http://www.youtube.com/embed/tCpSo4_Ped0?start=185" frameborder="0" allowfullscreen=""></iframe>
+	
+	<h2>Google maps</h2>
+	<div>
+	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=software+companies&amp;aq=0&amp;oq=software&amp;sll=47.670993,-122.344752&amp;sspn=0.263556,0.676346&amp;ie=UTF8&amp;hq=software+companies&amp;hnear=&amp;t=m&amp;ll=47.670993,-122.344752&amp;spn=0.263556,0.676346&amp;output=embed"></iframe><br><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=software+companies&amp;aq=0&amp;oq=software&amp;sll=47.670993,-122.344752&amp;sspn=0.263556,0.676346&amp;ie=UTF8&amp;hq=software+companies&amp;hnear=&amp;t=m&amp;ll=47.670993,-122.344752&amp;spn=0.263556,0.676346" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+	</div>
+	
+	<h2>Google News</h2>
+	<div>
+	<iframe src="https://news.google.com/rss/search?q={cornavirus}" frameborder="0" width="300" height="250" marginwidth="0" marginheight="0">
+	</iframe>
+	
+	</div>
+	<h1>Java based embeds</h1>
+	<script src="http://gmodules.com/ig/ifr?url=http://feeds.labnol.org/labnol&amp;synd=open&amp;w=320&amp;h=200&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+	
+	
+	</body>
+</html>
